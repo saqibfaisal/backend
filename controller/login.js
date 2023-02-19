@@ -34,6 +34,7 @@ const loginController = (req, res) => {
                         username: user.username,
                         // user: user[0].username,
                         email: user.email,
+                        categroy:user.usertype,
                         token: token
                     })
                 }
